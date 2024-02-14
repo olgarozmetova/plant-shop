@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Tienda online de plantas y flores" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="js/script.js"></script>
+
+    <title>Tienda online de plantas</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#">
+          <img
+            class="logo"
+            alt="Logo de la tienda de plantas"
+            src="img/Logo.jpg"
+          />
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#">Catálogo</a></li>
+            <li><a class="main-nav-link" href="#">Cómo cuidar</a></li>
+            <li><a class="main-nav-link" href="#">Pago y entrega</a></li>
+            <li><a class="main-nav-link" href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-icons">
+          <a href="#">
+            <img class="icon" src="icons/search.svg" />
+          </a>
+          <a href="#">
+            <img class="icon" src="icons/user.svg" />
+          </a>
+          <a href="#">
+            <img class="icon" src="icons/shopping-cart.svg" />
+          </a>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </div>
+      </header>
+      <main>
+        <section class="section-hero">
+          <div class="hero">
+            <div class="hero-text-box">
+              <h1 class="heading-primary">Plantas para su casa</h1>
+              <p class="hero-description">
+                Las plantas en macetas son un complemento bonito y moderno para
+                el interior de su casa u oficina.
+              </p>
+              <a href="#offer" class="btn">Ir al catálogo</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-cards">
+          <img class="cards-img" alt="Foto de ficus" src="img/img_1.jpg" />
+
+          <div class="cards-text ficus-text">
+            <h4 class="heading-cards">Ficus</h4>
+            <p class="cards-description">Decoración interior espectacular</p>
+          </div>
+
+          <img class="cards-img" alt="Foto de suculentas" src="img/img_2.jpg" />
+
+          <div class="cards-text suculentas-text">
+            <h4 class="heading-cards">Suculentas</h4>
+            <p class="cards-description">Pequeñas y modernas</p>
+          </div>
+
+          <img
+            class="cards-img palmera"
+            alt="Foto de palmeras"
+            src="img/img_3.jpg"
+          />
+
+          <div class="cards-text palmera">
+            <h4 class="heading-cards">Palmeras</h4>
+            <p class="cards-description">
+              Palmeras exuberantes y de fácil cuidado — decoración elegante.
+            </p>
+          </div>
+        </section>
+
+        <section class="section-offer" id="offer">
+          <h2 class="heading-secondary">Ofertas del mes</h2>
+          <div class="offer-container">
+            <div class="offer-box">
+              <img
+                class="offer-img"
+                alt="Foto de Strelitzia"
+                src="img/img_4.jpg"
+              />
+              <h5 class="heading-offer">Ficus</h5>
+              <p class="offer-description">Strelitzia Nicolás</p>
+              <p class="offer-price">34€</p>
+            </div>
+            <div class="offer-box red-elastica">
+              <img
+                class="offer-img"
+                alt="Foto de Ficus elastica"
+                src="img/img_5.jpg"
+              />
+              <h5 class="heading-offer">Ficus</h5>
+              <p class="offer-description">Ficus elastica</p>
+              <div class="price">
+                <p class="offer-price crossout">18€</p>
+                <p class="offer-price offer-price-new">9€</p>
+              </div>
+              <p class="offer-discount">- 50%</p>
+            </div>
+            <div class="offer-box red-lyrata">
+              <img
+                class="offer-img"
+                alt="Foto de Ficus Lyrata"
+                src="img/img_6.jpg"
+              />
+              <h5 class="heading-offer">Ficus</h5>
+              <p class="offer-description">Ficus Lyrata</p>
+              <div class="price">
+                <p class="offer-price crossout">24€</p>
+                <p class="offer-price offer-price-new">12€</p>
+              </div>
+              <p class="offer-discount">- 50%</p>
+            </div>
+            <div class="offer-box">
+              <img
+                class="offer-img"
+                alt="Foto de Aloe Vera"
+                src="img/img_7.jpg"
+              />
+              <h5 class="heading-offer">Suculentas</h5>
+              <p class="offer-description">Aloe Vera</p>
+              <p class="offer-price">8€</p>
+            </div>
+            <div class="offer-box">
+              <img
+                class="offer-img"
+                alt="Foto de Bonsai Ficus"
+                src="img/img_8.jpg"
+              />
+              <h5 class="heading-offer">Ficus</h5>
+              <p class="offer-description">Bonsai Ficus Retusa</p>
+              <p class="offer-price">18€</p>
+            </div>
+            <div class="offer-box red-kokedama">
+              <img
+                class="offer-img"
+                alt="Foto de Kokedama Ficus"
+                src="img/img_9.jpg"
+              />
+              <h5 class="heading-offer">Ficus</h5>
+              <p class="offer-description">Kokedama Ginseng</p>
+              <div class="price">
+                <p class="offer-price crossout">32€</p>
+                <p class="offer-price offer-price-new">16€</p>
+              </div>
+              <p class="offer-discount">- 50%</p>
+            </div>
+            <div class="offer-box red-crasas">
+              <img
+                class="offer-img"
+                alt="Foto de Bandeja de crasas"
+                src="img/img_10.jpg"
+              />
+              <h5 class="heading-offer">Suculentas</h5>
+              <p class="offer-description">Bandeja Crasas</p>
+              <div class="price">
+                <p class="offer-price crossout">16€</p>
+                <p class="offer-price offer-price-new">8€</p>
+              </div>
+              <p class="offer-discount">- 50%</p>
+            </div>
+            <div class="offer-box">
+              <img
+                class="offer-img"
+                alt="Foto de Agave Titanota"
+                src="img/img_11.jpg"
+              />
+              <h5 class="heading-offer">Suculentas</h5>
+              <p class="offer-description">Agave Titanota</p>
+              <p class="offer-price">26€</p>
+            </div>
+          </div>
+          <a href="#" class="btn offer-btn">Ir al catálogo</a>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer" id="contact">
+      <div class="footer-container">
+        <div class="footer-nav">
+          <nav class="secon-nav">
+            <ul class="secon-nav-list">
+              <li><a class="secon-nav-link" href="#">Catálogo</a></li>
+              <li><a class="secon-nav-link" href="#">Cómo cuidar</a></li>
+              <li><a class="secon-nav-link" href="#">Pago y entrega</a></li>
+              <li><a class="secon-nav-link" href="#">Contacto</a></li>
+            </ul>
+          </nav>
+          <div class="footer-icons">
+            <a href="#">
+              <img class="footer-icon" src="icons/instagram.svg" />
+            </a>
+            <a href="#">
+              <img class="footer-icon" src="icons/facebook.svg" />
+            </a>
+            <a href="#">
+              <img class="footer-icon" src="icons/twitter.svg" />
+            </a>
+          </div>
+        </div>
+        <div class="footer-part">
+          <div class="footer-text">
+            <a href="#">
+              <img
+                class="logo"
+                alt="Logo de la tienda de plantas"
+                src="img/Logo_white.png"
+              />
+            </a>
+            <p class="copyright">
+              &copy; <span class="year">2023</span> Tienda de plantas y flores
+              <span class="plant">plant</span>
+            </p>
+          </div>
+          <form>
+            <input
+              class="email margin-right"
+              type="email"
+              placeholder="email"
+              name="email"
+              required
+            />
+            <input
+              class="suscribe"
+              type="email"
+              placeholder="suscribirse"
+              name="email"
+              required
+            />
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
