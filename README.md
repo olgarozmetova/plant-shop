@@ -1,3 +1,11 @@
 # Online Plant Shop
 
-Website that sells plants for home, designed in Figma and build in html/css/javascript.
+Website about selling indoor plants, which I've designed in Figma and build in HTML, CSS and Javascript.
+
+## Features
+
+- Responsive design
+- CSS Flex
+- CSS Grid
+
+<img src="src/img/screen.png" />

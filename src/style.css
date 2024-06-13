@@ -75,7 +75,6 @@ body {
   border: none;
   background: none;
   cursor: pointer;
-
   display: none;
 }
 
@@ -358,7 +357,6 @@ form *:focus {
 
 @media (max-width: 66em) {
   html {
-    /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
 }
